@@ -43,7 +43,7 @@ var BettingGame = {
     }
     else if(BettingGame.guess === BettingGame.randomNumber+1 || BettingGame.guess === BettingGame.randomNumber-1)
     {
-      alert('So Close! The number was ' + BettingGame.randomNumber);
+      alert("So Close that I'll let you keep your money! The number was " + BettingGame.randomNumber);
       rotateImg();
     }
     else
