@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="betting_game.js"></script>
+  </head>
+
+  <body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+      <div class="jumbotron">
+        <img src="http://i572.photobucket.com/albums/ss162/mobey3/Bulbasaur_by_elfaceitoso.png">
+        <img src="http://img3.wikia.nocookie.net/__cb20141004224742/camphalfbloodroleplay/images/7/77/Pikachu.png">
+        <img src="http://img2.wikia.nocookie.net/__cb20111125160656/misanimes/es/images/3/33/CHARMANDER_1.png">
+        <img src="https://slack-files.com/files-tmb/T027U4K7E-F03KQP49W-75b4efdde2/foxee_head_circle_360.png">
+
+        <h2>POKEMON RANDOM NUMBER GUESSING GAME</h2>
+
+        <p>Your money: 
+        <span data-money="100">
+        </span>
+        </p>
+
+        <form id="betting-form">
+          <label>Your Bet (between 5 and 10) $:</label>
+          <br>
+          <br>
+          <input id="bet" class="form-control" type="number" placeholder="bet..." min="5" max="10" required>
+          <br>
+          <br>
+          <label>Your Guess (random number between 1 and 15):</label>
+          <br>
+          <br>
+          <input id="guess" class="form-control" type="number" placeholder="guess..." min="1" max="15" required>
+          <br>
+          <br>
+          <input id="start-game" class="btn btn-primary btn-lg" type="submit">
+          <a class="reload-btn btn btn-lg btn-primary" href="">Reset!</a>
+        </form>
+        <br>
+        <small>Built With Much <3 @ <a href="http://lighthouselabs.ca">Lighthouse Labs</a></small>
+        <small id="github">Find me on Gihthub: <a href="http://github.com/hyeunny">hyeunny</a></small>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+body{
+  background-color: rgba(250, 104, 14, 0.87); 
+}
+
+img{
+  float: right;
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 100%;
+  transition-duration: 0.5s;
+}
+
+#github{
+  float:right;
+}
